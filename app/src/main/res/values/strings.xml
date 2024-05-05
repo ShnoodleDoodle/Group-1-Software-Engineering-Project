@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">V2</string>
+    <string name="prompt_password" />
+    <string name="action_sign_in_short">\n</string>
+    <string name="action_sign_in" />
+    <string name="prompt_email" />
+    <string name="invalid_password" />
+    <string name="invalid_username" />
+    <string name="login_failed" />
+    <string name="welcome" />
+    <string name="title_dashboard" />
+    <string name="description">\n</string>
+    <string name="medication" />
+    <string name="emergency_contact" />
+    <string name="date_of_admittance" />
+    <string name="schedule_notification" />
+    <string name="message" />
+    <string name="title" />
+
+    <string name="lady1">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
+    <string name="lady2">Checkboxes allow the user to select one or more options from a set.
+        Typically, you should present each checkbox option in a vertical list. To create each checkbox option,
+        create a CheckBox in your layout. Because a set of checkbox options allows the user to select multiple items,
+        each checkbox is managed separately and you must register a click listener for each one.</string>
+    <string name="lady3">ImageView class is used to display any kind of image resource in the android application
+        either it can be android.graphics.Bitmap or android.graphics.drawable.Drawable
+        (it is a general abstraction for anything that can be drawn in Android).
+        ImageView class or android.widget.ImageView inherits the android.view.View class which is the subclass
+        of Kotlin. AnyClass.Application of ImageView is also in applying tints to an image in order to reuse a
+        drawable resource and create overlays on background images. Moreover, ImageView is also used to control
+        the size and movement of an image.</string>
+    <string name="lady4">A toggle button allows the user to change a setting between two states.
+        You can add a basic toggle button to your layout with the ToggleButton object.
+        Android 4.0 (API level 14) introduces another kind of toggle button called a switch that provides
+        a slider control, which you can add with a Switch object.</string>
+    <string name="add" />
+
+</resources>

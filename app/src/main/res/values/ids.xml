@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="id" />
+    <item name="login" type="id" />
+    <item name="CancelButton" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="listView" type="id" />
+    <item name="detailImage" type="id" />
+    <item name="tabLayout" type="id" />
+    <item name="viewPager" type="id" />
+    <item name="spinner2" type="id" />
+    <item name="spinner1" type="id" />
+    <item name="backtodash4" type="id" />
+</resources>

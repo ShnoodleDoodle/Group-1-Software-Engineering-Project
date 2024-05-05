@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522067322567",
+    "project_id": "thecaringconnection-2024",
+    "storage_bucket": "thecaringconnection-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522067322567:android:eeffb79d7b52745d2840e2",
+        "android_client_info": {
+          "package_name": "com.example.v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDapehuncuSOCU7Wo1LLiaF2nsPvHDWlx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
