@@ -37,27 +37,51 @@ How to Download and Run the App in Android Studio
 5.	Android Studio will compile the app in the virtual phone.
 6.	For the application to run correctly, please use the Pixel 7 pro Emulator as well as the API UpsideDownCakePrivacySandbox
    
-   These are the versions we are using :
+   These are the versions/librarys/plugins we are using :
   	
-  	versions
-[agp = "8.4.0-alpha12"
-artifactid = "version"
-kotlin = "1.9.0"
-coreKtx = "1.12.0"
-junit = "4.13.2"
-junitVersion = "1.1.5"
-espressoCore = "3.5.1"
-appcompat = "1.6.1"
-material = "1.11.0"
-activity = "1.8.2"
-constraintlayout = "2.1.4"
-firebaseFirestoreKtx = "24.10.3"
-recyclerview = "1.3.2"
-googleGmsGoogleServices = "4.4.1"
-firebaseDatabase = "20.3.1"
-firebaseAuth = "22.3.1"
-firebaseStorageKtx = "20.3.0"
-firebaseStorage = "20.3.0"]
+  	
+
+[versions]
+* agp = "8.4.0-alpha12"
+* artifactid = "version"
+* kotlin = "1.9.0"
+* coreKtx = "1.12.0"
+* junit = "4.13.2"
+* junitVersion = "1.1.5"
+* espressoCore = "3.5.1"
+* appcompat = "1.6.1"
+* material = "1.11.0"
+* activity = "1.8.2"
+* constraintlayout = "2.1.4"
+* firebaseFirestoreKtx = "24.10.3"
+* recyclerview = "1.3.2"
+* googleGmsGoogleServices = "4.4.1"
+* firebaseDatabase = "20.3.1"
+* firebaseAuth = "22.3.1"
+* firebaseStorageKtx = "20.3.0"
+* firebaseStorage = "20.3.0"
+
+[libraries]
+* androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+* artifactid = { module = "groupId:artifactId", version.ref = "artifactid" }
+* junit = { group = "junit", name = "junit", version.ref = "junit" }
+* androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+* androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+* androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+* material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+* androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+* androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+* firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+* androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+* firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+* firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+* firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+* firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+
+[plugins]
+* android-application = { id = "com.android.application", version.ref = "agp" }
+* jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+* google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
 
 as well as the implementations we are using which should already be included inside the provided .gradle file :
