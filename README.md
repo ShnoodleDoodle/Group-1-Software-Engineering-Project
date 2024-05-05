@@ -39,8 +39,8 @@ How to Download and Run the App in Android Studio
    
    These are the versions we are using :
   	
-  	[versions]
-agp = "8.4.0-alpha12"
+  	versions
+[agp = "8.4.0-alpha12"
 artifactid = "version"
 kotlin = "1.9.0"
 coreKtx = "1.12.0"
@@ -57,7 +57,8 @@ googleGmsGoogleServices = "4.4.1"
 firebaseDatabase = "20.3.1"
 firebaseAuth = "22.3.1"
 firebaseStorageKtx = "20.3.0"
-firebaseStorage = "20.3.0"
+firebaseStorage = "20.3.0"]
+
 
 as well as the implementations we are using which should already be included inside the provided .gradle file :
 
